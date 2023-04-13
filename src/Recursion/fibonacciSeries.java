@@ -12,8 +12,7 @@ public class fibonacciSeries {
             return 0;
         }
         int oneless = fibo(i-1);
-        int output = i * oneless;
-        return output;
+        return i * oneless;
     }
 
 }
